@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.cell{
+    height: 75px;
+    width: 75px;
+    border: 2px solid;
+    
+}
+#gameContainer{
+    font-family: cursive;
+    font-weight: 700;
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+    font-size: 45px;
+    color: white;
+}
+#restart{
+    background-color: rgb(230, 148, 148);
+    height: 50px;
+    width: 150px;
+    color: black;
+    font-size: 16px ;
+    font-weight: bold;
+}
+#statusText{
+    color: white;
+}
